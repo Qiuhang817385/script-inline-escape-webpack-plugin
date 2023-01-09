@@ -1,0 +1,19 @@
+{
+  "name": "script-inline-escape-webpack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qiuhang817385/script-inline-escape-webpack-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Qiuhang817385/script-inline-escape-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/Qiuhang817385/script-inline-escape-webpack-plugin#readme"
+}
