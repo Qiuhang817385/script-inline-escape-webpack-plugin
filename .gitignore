@@ -1,0 +1,8 @@
+/node_modules/
+/dynavers_modules/
+/dist/
+/issue/
+npm-debug.log
+.swp
+.idea
+
