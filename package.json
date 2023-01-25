@@ -3,6 +3,10 @@
   "version": "1.0.4",
   "description": "fix resource for the packaged content of script-ext-html-webpack-plugin",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "lib/"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
