@@ -52,10 +52,10 @@ jobs:
 # 发布NPM包
       - name: 发布NPM包
 # 执行发布代码
+# npm version patch
 # cd dist
         run: |
           npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
-          npm version patch
           npm publish
         env:
 # 配置 npm access token 环境变量
