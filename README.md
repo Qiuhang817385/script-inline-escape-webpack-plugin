@@ -1,3 +1,5 @@
+[![Push Release Npm](https://github.com/Qiuhang817385/script-inline-escape-webpack-plugin/actions/workflows/main.yml/badge.svg)](https://github.com/Qiuhang817385/script-inline-escape-webpack-plugin/actions/workflows/main.yml)
+
 # script-inline-escape-webpack-plugin
 
 ## Summary
