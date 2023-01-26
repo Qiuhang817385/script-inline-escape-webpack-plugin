@@ -81,20 +81,16 @@ jobs:
 # 上传Release Asset
       - name: 上传 Release Asset
         id: upload-release-asset
-        uses: d1ceward/draft-assets-release-action@v2
-        # env:
-        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          files: |
-            lib
-            index.js
 # 上传URL为创建GitHub Release步骤的输出值，可通过配置的id获取
-          # upload_url: ${{ steps.create_release.outputs.upload_url }}
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
 # 上传文件信息
-          # asset_path: ./index.js
-          # asset_name: index.js
-          # asset_content_type: application/js
+          asset_path: ./index.js
+          asset_name: index.js
+          asset_content_type: application/js
 
 # 刷新缓存
 # - name: 刷新缓存
