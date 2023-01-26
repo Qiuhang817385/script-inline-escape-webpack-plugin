@@ -17,6 +17,9 @@ jobs:
       matrix:
         node-version: [ 16.x ]
     steps:
+      - run: git config --global user.email "826266129@qq.com"
+      - run: git config --global user.name "Qiuhang817385"
+
 # 检查并切换到 main 分支
       - name: 检查 main 分支
 # 使用 actions/checkout 插件
