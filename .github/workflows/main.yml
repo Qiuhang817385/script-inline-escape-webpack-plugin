@@ -52,7 +52,7 @@ jobs:
 # 执行发布代码
 # cd dist
         run: |
-          npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
+          npm config set //registry.npmjs.org/:_authToken=$NPM_ACCESS_TOKEN
           npm version patch
           npm publish
         env:
