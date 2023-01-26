@@ -1,6 +1,6 @@
 {
   "name": "script-inline-escape-webpack-plugin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "fix resource for the packaged content of script-ext-html-webpack-plugin",
   "main": "index.js",
   "files": [
