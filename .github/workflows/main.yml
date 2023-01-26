@@ -20,12 +20,11 @@ jobs:
 # 检查并切换到 main 分支
       - name: 检查 main 分支
 # 使用 actions/checkout 插件
-        uses: actions/checkout@main
-
+        uses: actions/checkout@v3
 # 安装 node
       - name: 设置 Node.js
 # 使用actions/setup-node插件
-        uses: actions/setup-node@main
+        uses: actions/setup-node@v3
         with:
 # node版本
           node-version: ${{ matrix.node-version }}
@@ -52,7 +51,7 @@ jobs:
 # 执行发布代码
 # cd dist
         run: |
-          npm config set //registry.npmjs.org/:_authToken=$NPM_ACCESS_TOKEN
+          npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
           npm version patch
           npm publish
         env:
